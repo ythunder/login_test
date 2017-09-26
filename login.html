@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+    <script type="text/javascript" href="login.js"></script>
+
+</head>
+<body>
+<div id="login_fram">
+    <p id="image_logo">
+        <img src="background.png">
+    </p>
+    <form method="post" action="login.js">
+        <p>
+            <label class="label_input">用户名</label><input type="text" name="username" class="text_filed"/>
+        </p>
+        <p>
+            <label class="label_input">密  码</label><input type="text" name="password" class="text_filed"/>
+        </p>
+
+        <div id="login_control">
+            <input type="button" name="btn_login" value="登录" onclick="login();"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>
